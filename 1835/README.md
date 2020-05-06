@@ -1,5 +1,7 @@
 # 프로그래머스 단체 사진 찍기
 
+https://programmers.co.kr/learn/courses/30/lessons/1835#
+
 전체 소스 코드
 ```cpp
 #include <bits/stdc++.h>
