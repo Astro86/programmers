@@ -13,7 +13,7 @@ def solution(cacheSize, cities):
         else:
             cache.append(city)
 
-            if(len(cache) == cacheSize):
+            if(len(cache) > cacheSize):
                 cache.pop(0)
             answer += 5
 
