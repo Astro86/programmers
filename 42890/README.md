@@ -39,7 +39,7 @@ bool isKeyUsed(int check) {
     for (int i = 0; i < candidates.size(); i++) {
         int value = check & candidates[i];
 
-        // and 연산한 결과가 
+        // and 연산한 결과가 이전에 사용한 키인지 확인한다.
         if (value == candidates[i] || value == check) {
             return true;
         }
